@@ -1,0 +1,11 @@
+,value
+rows_raw,625783
+rows_after_dedup,155373
+duplicates_removed,470410
+features_final,77
+nan_cells_before_imputation,862211
+inf_values_repaired,736
+minus1_sentinels_repaired,861475
+constant_features,"Fwd_PSH_Flags, Fwd_URG_Flags, Fwd_Byts/b_Avg, Fwd_Pkts/b_Avg, Fwd_Blk_Rate_Avg, Bwd_Byts/b_Avg, Bwd_Pkts/b_Avg, Bwd_Blk_Rate_Avg, Init_Fwd_Win_Byts, Fwd_Seg_Size_Min"
+redundant_pairs_gt_095,37
+top_missing_columns,Protocol=0.00%; Flow_Duration=0.00%; Tot_Fwd_Pkts=0.00%; Tot_Bwd_Pkts=0.00%; TotLen_Fwd_Pkts=0.00%; TotLen_Bwd_Pkts=0.00%; Fwd_Pkt_Len_Max=0.00%; Fwd_Pkt_Len_Min=0.00%

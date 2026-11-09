@@ -1,0 +1,7 @@
+- Best detection quality: XGBoost (MCC=0.9356, balanced accuracy=0.9762).
+- Fastest detector: Neural Network at 103.2 us/flow (4,161k flows/s, 70 KB).
+- Feature budget: 10 of 67 features keep MCC within 0.01 of the full set (0.9375).
+- Cost-aware thresholding (C_FN=10, C_FP=1) on XGBoost reduces expected alert cost by 88% vs the default 0.5 rule.
+- Under maximal noise (sigma=1.00) MCC falls BY 0.911 (XGBoost), 0.678 (Logistic Regression), 0.630 (Neural Network), i.e. from clean-data levels XGBoost 0.936, Logistic Regression 0.813, Neural Network 0.890.
+- Temporal check (IoTID20 capture is chronologically segregated): the last 15% of the capture contains only Mirai flows, so MCC is undefined there; the time-held-out XGBoost still flagged 91.5% of those flows (random-split Mirai flag rate: 98.9%).
+- Hardest flows (missed by all models) are dominated by: Normal (142), Mirai (114), Scan (111).

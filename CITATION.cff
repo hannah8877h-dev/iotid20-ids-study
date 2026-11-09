@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Lightweight Machine Learning for IoT Intrusion Detection: An Accuracy, Efficiency and Robustness Study on the IoTID20 Dataset"
+message: "If you use this repository or its results, please cite it using this metadata and the IoTID20 dataset paper."
+type: software
+authors:
+  - name: "Hananeh Shabestani"   # add an "orcid:" line below if you have one (optional)
+version: 1.0.0
+date: "2026-11-09"
+repository-code: "https://github.com/hannah8877h-dev/iotid20-ids-study"
+keywords:
+  - intrusion detection
+  - IoT security
+  - IoTID20
+  - machine learning
+  - XGBoost
+  - SHAP
+license: MIT
+preferred-citation:
+  type: article
+  title: "A Scheme for Generating a Dataset for Anomalous Activity Detection in IoT Networks"
+  authors:
+    - family-names: Ullah
+      given-names: Iram
+    - family-names: Mahmoud
+      given-names: Q. H.
+  year: 2020
+  journal: "Advances in Artificial Intelligence (Canadian AI 2020), LNCS 12109, Springer"
+  doi: "10.1007/978-3-030-47358-7_52"

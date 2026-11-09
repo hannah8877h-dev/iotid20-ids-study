@@ -1,0 +1,4 @@
+fold,n,normal,anomaly,categories
+train,108761,26801,81960,"Mirai:44,714, Normal:26,801, DoS:20,180, Scan:9,226, MITM ARP Spoofing:7,840"
+val,23306,0,23306,Mirai:23,306
+test,23306,0,23306,Mirai:23,306

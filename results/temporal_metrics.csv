@@ -1,0 +1,2 @@
+Model,Accuracy,BalancedAcc,MCC,F1_macro,note
+XGBoost (temporal split),0.9146571698275122,0.9146571698275122,,0.47771328686999975,degenerate temporal test fold (single class Anomaly); flag rate 0.9147 is the meaningful quantity
