@@ -1,0 +1,21 @@
+# Core scientific stack
+numpy>=1.24,<3.0
+pandas>=2.0,<3.0
+scikit-learn>=1.3
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.12
+
+# Models
+xgboost>=2.0
+torch>=2.0
+
+# Explainability
+shap>=0.43
+
+# Utilities
+joblib>=1.3
+psutil>=5.9
+
+# Optional: Kaggle CLI for auto-download
+kaggle>=1.6

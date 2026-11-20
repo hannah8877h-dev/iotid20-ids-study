@@ -1,0 +1,54 @@
+# IoTID20 Lightweight IDS Study
+# Version: V3 (2026)
+# Python: 3.12
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data files (too large for git)
+data/*.csv
+data/*.csv.gz
+data/*.zip
+data/*/*.csv
+data/*/*.zip
+!data/.gitkeep
+
+# Model artifacts
+models/*.joblib
+models/*.pt
+models/*.pkl
+!models/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Kaggle
+kaggle.json
