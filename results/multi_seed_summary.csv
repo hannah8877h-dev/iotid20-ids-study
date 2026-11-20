@@ -1,0 +1,4 @@
+Model,MCC_mean,MCC_std,F1_mean,F1_std,PR_AUC_mean,PR_AUC_std,n_seeds
+Logistic Regression,0.808,0.0031,0.9004,0.0017,0.9958,0.0001,10
+Neural Network,0.8802,0.0124,0.9393,0.0067,0.9983,0.0001,10
+XGBoost,0.9349,0.002,0.9673,0.001,0.9995,0.0,10

@@ -1,0 +1,4 @@
+Model,default_cost,optimal_threshold,optimal_cost,cost_reduction_pct
+Logistic Regression,19655.0,0.09,2359.0,88.0
+XGBoost,5411.0,0.05,632.0,88.32
+Neural Network,9963.0,0.04,1267.0,87.28

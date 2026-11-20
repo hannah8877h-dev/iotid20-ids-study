@@ -1,0 +1,28 @@
+============================================================
+IoTIDS20-V3 KEY FINDINGS
+============================================================
+
+RAW rows                                                : 625,783
+Unique rows (after de-dup)                              : 155,373
+Duplicate rate (raw)                                    : 10.19%
+Duplicate verification methods agree                    : True
+Final feature count                                     : 67
+Logistic Regression MCC                                 : 0.8127
+Logistic Regression PR-AUC                              : 0.9959
+XGBoost MCC                                             : 0.9356
+XGBoost PR-AUC                                          : 0.9994
+Neural Network MCC                                      : 0.8896
+Neural Network PR-AUC                                   : 0.9986
+XGB MCC at sigma=0.1 (raw-feature noise, proper)        : 0.1681
+XGB MCC at sigma=0.1 (scaled-feature noise, original)   : 0.1681
+Methodology artifact detected                           : False
+XGB temporal-split MCC                                  : 0.0000
+Random vs temporal MCC optimism                         : 0.9356
+Logistic Regression multi-seed MCC mean±std             : 0.8080±0.0031 (n=10)
+XGBoost multi-seed MCC mean±std                         : 0.9349±0.0020 (n=10)
+Neural Network multi-seed MCC mean±std                  : 0.8802±0.0124 (n=10)
+Logistic Regression bootstrap 95% CI                    : [0.8055, 0.8201]
+XGBoost bootstrap 95% CI                                : [0.9310, 0.9406]
+Neural Network bootstrap 95% CI                         : [0.8840, 0.8958]
+
+============================================================

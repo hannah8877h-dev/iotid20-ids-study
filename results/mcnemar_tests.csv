@@ -1,0 +1,4 @@
+a,b,b01,b10,p,sig
+Logistic Regression,XGBoost,319,1927,1.7310990625257864e-279,***
+Logistic Regression,Neural Network,330,1382,8.140857308454426e-153,***
+XGBoost,Neural Network,772,216,7.074659758849872e-74,***

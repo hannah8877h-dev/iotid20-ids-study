@@ -1,0 +1,6 @@
+family,n_flows,precision,recall,F1
+Scan,2249,1.0,0.9057,0.9505
+Normal,6700,1.0,0.9685,0.984
+MITM ARP Spoofing,1925,1.0,0.9777,0.9887
+Mirai,22821,1.0,0.9886,0.9942
+DoS,5149,1.0,0.9992,0.9996

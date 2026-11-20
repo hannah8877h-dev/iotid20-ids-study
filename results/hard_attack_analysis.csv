@@ -1,0 +1,3 @@
+family,n_samples,top_separating,top_confusing
+Scan,2249,"['Flow_Duration', 'Flow_Pkts/s', 'Flow_IAT_Max']","['Init_Bwd_Win_Byts', 'Subflow_Bwd_Byts', 'URG_Flag_Cnt']"
+MITM ARP Spoofing,1925,"['Flow_Duration', 'Flow_Pkts/s', 'Idle_Max']","['FIN_Flag_Cnt', 'SYN_Flag_Cnt', 'ACK_Flag_Cnt']"

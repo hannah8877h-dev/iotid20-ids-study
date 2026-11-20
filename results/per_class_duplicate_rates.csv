@@ -1,0 +1,6 @@
+category,total_rows,duplicate_rows,duplicate_pct
+Scan,75265,63776,84.74
+Mirai,415677,321540,77.35
+MITM ARP Spoofing,35377,25191,71.21
+DoS,59391,39199,66.0
+Normal,40073,13272,33.12
